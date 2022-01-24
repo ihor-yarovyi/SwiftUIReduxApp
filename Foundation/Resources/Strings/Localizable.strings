@@ -1,0 +1,90 @@
+/* 
+  Localizable.strings
+  UDFReduxApp
+
+  Created by Ihor Yarovyi on 7/24/21.
+  
+*/
+
+// MARK: - Sign In
+"sign_in.title" = "Login";
+"sign_in.inputs.email.placeholder" = "Email or Username";
+"sign_in.inputs.password.placeholder" = "Password";
+"sign_in.labels.do_not_have_account" = "Don’t have an account?";
+"sign_in.buttons.forgot_password.title" = "Forgot your password?";
+"sign_in.buttons.sign_in.title" = "Sign In";
+"sign_in.buttons.sign_up.title" = "Sign Up";
+
+// MARK: - Sign Up
+"sign_up.title" = "Sign Up";
+"sign_up.inputs.email.placeholder" = "Email";
+"sign_up.inputs.username.placeholder" = "Username";
+"sign_up.inputs.password.placeholder" = "Password";
+"sign_up.inputs.confirm_password.placeholder" = "Confirm Password";
+"sign_up.buttons.sign_up.title" = "Sign Up";
+"sign_up.buttons.log_in.title" = "Log in";
+"sign_up.labels.already_have_an_account" = "Already have an account?";
+"sign_up.validation.group_name" = "Passwords";
+
+// MARK: - Email Verification
+"email_verification.title" = "Verification Email";
+"email_verification.labels.title" = "Please verify your email";
+"email_verification.labels.description" = "We sent a verification email to «%@». Click the link in the email to verify your email.";
+"email_verification.labels.do_not_have_a_link" = "Don’t have a link?";
+"email_verification.buttons.resend" = "Resend";
+"email_verification.buttons.sign_in" = "Sign In";
+
+// MARK: - Email Verification Status
+"email_verification_status.title" = "Verification Email";
+"email_verification_status.labels.success.title" = "Email successfully verified";
+"email_verification_status.labels.success.description" = "Email has been verified";
+"email_verification_status.labels.failed.title" = "Email not verified";
+"email_verification_status.labels.failed.description" = "Email has not been verified";
+"email_verification_status.buttons.sign_in" = "Sign In";
+
+// MARK: - Complete Profile
+"complete_profile.title" = "Complete Profile";
+"complete_profile.buttons.upload_photo" = "Upload profile photo";
+"complete_profile.buttons.create_account" = "Create Account";
+"complete_profile.inputs.first_name.placeholder" = "First Name";
+"complete_profile.inputs.last_name.placeholder" = "Last Name (optional)";
+"complete_profile.inputs.phone_number.placeholder" = "Phone number (optional)";
+"complete_profile.inputs.bio.placeholder" = "Bio (optional)";
+"complete_profile.sheet.title" = "Choose a source of the photo";
+
+// MARK: - Restore Password
+"restore_password.title" = "Restore Password";
+"restore_password.labels.request_did_send" = "Password Reset Email Sent";
+"restore_password.labels.restore_link_sent_to" = "Restore link has been sent to\n«%@»";
+"restore_password.labels.dont_have_link" = "Don't have a link?";
+"restore_password.buttons.resend" = "Resend";
+"restore_password.buttons.sign_in" = "Sign In";
+"restore_password.inputs.new_password" = "New Password";
+"restore_password.inputs.confirm_new_password" = "Confirm New Password";
+
+// MARK: - Image Cropping View
+"image_cropping_view.actions.cancel" = "Cancel";
+"image_cropping_view.actions.crop" = "Crop";
+
+// MARK: - Validation
+"validation.required" = "%@ is required";
+"validation.mustBe" = "%@ must be from %d to %d symbols";
+"validation.spaceOnly" = "%@ can't contain spaces only";
+"validation.notValid" = "%@ is invalid";
+"validation.noSpaces" = "%@ cannot contain spaces";
+"validation.shouldContain" = "%@ should contain at least one letter and one digit and one capital letter";
+"validation.shouldNotContain" = "%@ should not contain @ and spases";
+"validation.notMatch" = "%@ don't match";
+"validation.hasNotValidFormat" = "%@ has not valid format";
+
+// MARK: - Alert
+"alert.titles.error" = "Error";
+"alert.titles.permission_denied" = "Permission denied";
+"alert.titles.password_changed" = "Your password has been successfully changed";
+"alert.messages.denied" = "Access to the %@ is denied";
+"alert.actions.settings" = "Settings";
+"alert.actions.ok" = "OK";
+
+// MARK: - Action Sheet
+"sheet.action.camera" = "Take photo";
+"sheet.action.gallery" = "Choose from Gallery";
